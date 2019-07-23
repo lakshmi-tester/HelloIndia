@@ -9,9 +9,9 @@ public class NewTest9 {
 	  String resu="";
 	  String[] arr=st.split("");
 	  for(int i=st.length()-1;i>=0;i--) {
-		  resu+=arr[i]+"";
-		  System.out.println(resu.subSequence(0,resu.length()-1 ));
+		  resu=resu+arr[i]+"";
+		  
 	  }
-	  
+	  System.out.println(resu ); 
   }
 }

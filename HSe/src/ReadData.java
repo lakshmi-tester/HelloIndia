@@ -12,7 +12,7 @@ public class ReadData {
 		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 driver.get("https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp");
-		  Xls_Reader reader=new Xls_Reader("C:\\Users\\Ramesh\\Desktop\\lakshmi\\HSe\\src\\testdata\\ram.xlsx");
+		  Xls_Reader reader=new Xls_Reader("C:\\Users\\Ramesh\\git\\HelloIndia\\HSe\\src\\testdata\\ram.xlsx");
 		 
 		  int rowcount=reader.getRowCount("lax");
 		  for(int rownum=2;rownum<=rowcount;rownum++) {
